@@ -1,0 +1,5 @@
+package:
+  name: testproj
+  version: 1.0
+build:
+  number: 0
