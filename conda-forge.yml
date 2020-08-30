@@ -1,1 +1,12 @@
-{}
+
+github:
+    user_or_org: mehdizadehm
+channels:
+    targets:
+        - ["meissam", "main"]
+provider:
+    linux: circle
+    osx: None
+    win: None
+    linux_ppc64le: None
+    linux_aarch64: None
