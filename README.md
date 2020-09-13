@@ -1,5 +1,5 @@
-About testproj
-==============
+About testproject
+=================
 
 Home: 
 
@@ -30,43 +30,43 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-testproj-green.svg)](https://anaconda.org/meissam/testproj) | [![Conda Downloads](https://img.shields.io/conda/dn/meissam/testproj.svg)](https://anaconda.org/meissam/testproj) | [![Conda Version](https://img.shields.io/conda/vn/meissam/testproj.svg)](https://anaconda.org/meissam/testproj) | [![Conda Platforms](https://img.shields.io/conda/pn/meissam/testproj.svg)](https://anaconda.org/meissam/testproj) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-testproject-green.svg)](https://anaconda.org/meissam/testproject) | [![Conda Downloads](https://img.shields.io/conda/dn/meissam/testproject.svg)](https://anaconda.org/meissam/testproject) | [![Conda Version](https://img.shields.io/conda/vn/meissam/testproject.svg)](https://anaconda.org/meissam/testproject) | [![Conda Platforms](https://img.shields.io/conda/pn/meissam/testproject.svg)](https://anaconda.org/meissam/testproject) |
 
-Installing testproj
-===================
+Installing testproject
+======================
 
-Installing `testproj` from the `meissam` channel can be achieved by adding `meissam` to your channels with:
+Installing `testproject` from the `meissam` channel can be achieved by adding `meissam` to your channels with:
 
 ```
 conda config --add channels meissam
 ```
 
-Once the `meissam` channel has been enabled, `testproj` can be installed with:
+Once the `meissam` channel has been enabled, `testproject` can be installed with:
 
 ```
-conda install testproj
+conda install testproject
 ```
 
-It is possible to list all of the versions of `testproj` available on your platform with:
+It is possible to list all of the versions of `testproject` available on your platform with:
 
 ```
-conda search testproj --channel meissam
+conda search testproject --channel meissam
 ```
 
 
 
 
-Updating testproj-feedstock
-===========================
+Updating testproject-feedstock
+==============================
 
-If you would like to improve the testproj recipe or build a new
+If you would like to improve the testproject recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `meissam` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `meissam` channel.
-Note that all branches in the mehdizadehm/testproj-feedstock are
+Note that all branches in the mehdizadehm/testproject-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
