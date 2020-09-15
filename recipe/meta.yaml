@@ -4,7 +4,6 @@ package:
 build:
   number: 0
 source:
-  git_url: https://github.com/insarlab/MintPy.git
-  git_depth: 1 # (Defaults to -1/not shallow)
-
+  git_url: https://github.com/mehdizadehm/MintPy.git
+  
 
