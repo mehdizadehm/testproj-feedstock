@@ -1,6 +1,6 @@
 package:
   name: testproject
-  version: 1.152
+  version: 1.153
 build:
   number: 0
 source:
