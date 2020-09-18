@@ -8,4 +8,13 @@ source:
   sha256: d9201c21d5c60e93c08bc13ac972835822071d209b756e3dad112b95f6861515
   md5: b00381011acac788b077b97e77e3735a
 
-
+requirements:
+  build:
+    # If your project compiles code (such as a C extension) then add the required compilers as separate entries here.
+    # Compilers are named 'c', 'cxx' and 'fortran'.
+    - {{ compiler('c') }}
+  host:
+    - python
+    - pip
+  run:
+    - python
