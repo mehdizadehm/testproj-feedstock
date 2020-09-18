@@ -13,9 +13,13 @@ jobs:
       - UPLOAD_PACKAGES: "True"
         DOCKER_IMAGE: "condaforge/linux-anvil-comp7"
     steps:
+      - checkout
       - run:
-          command: exit 0
-
+          # Run, test and (if we have a BINSTAR_TOKEN) upload the distributions.
+          command: |
+            export CI=circle
+            export FEEDSTOCK_NAME=$(basename ${CIRCLE_PROJECT_REPONAME})
+            ./.scripts/run_docker_build.sh
 
 workflows:
   version: 2
