@@ -1,5 +1,5 @@
-About testproject
-=================
+About mintpy_beta_01
+====================
 
 Home: 
 
@@ -30,43 +30,43 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-testproject-green.svg)](https://anaconda.org/meissam/testproject) | [![Conda Downloads](https://img.shields.io/conda/dn/meissam/testproject.svg)](https://anaconda.org/meissam/testproject) | [![Conda Version](https://img.shields.io/conda/vn/meissam/testproject.svg)](https://anaconda.org/meissam/testproject) | [![Conda Platforms](https://img.shields.io/conda/pn/meissam/testproject.svg)](https://anaconda.org/meissam/testproject) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-mintpy_beta_01-green.svg)](https://anaconda.org/meissam/mintpy_beta_01) | [![Conda Downloads](https://img.shields.io/conda/dn/meissam/mintpy_beta_01.svg)](https://anaconda.org/meissam/mintpy_beta_01) | [![Conda Version](https://img.shields.io/conda/vn/meissam/mintpy_beta_01.svg)](https://anaconda.org/meissam/mintpy_beta_01) | [![Conda Platforms](https://img.shields.io/conda/pn/meissam/mintpy_beta_01.svg)](https://anaconda.org/meissam/mintpy_beta_01) |
 
-Installing testproject
-======================
+Installing mintpy_beta_01
+=========================
 
-Installing `testproject` from the `meissam` channel can be achieved by adding `meissam` to your channels with:
+Installing `mintpy_beta_01` from the `meissam` channel can be achieved by adding `meissam` to your channels with:
 
 ```
 conda config --add channels meissam
 ```
 
-Once the `meissam` channel has been enabled, `testproject` can be installed with:
+Once the `meissam` channel has been enabled, `mintpy_beta_01` can be installed with:
 
 ```
-conda install testproject
+conda install mintpy_beta_01
 ```
 
-It is possible to list all of the versions of `testproject` available on your platform with:
+It is possible to list all of the versions of `mintpy_beta_01` available on your platform with:
 
 ```
-conda search testproject --channel meissam
+conda search mintpy_beta_01 --channel meissam
 ```
 
 
 
 
-Updating testproject-feedstock
-==============================
+Updating mintpy_beta_01-feedstock
+=================================
 
-If you would like to improve the testproject recipe or build a new
+If you would like to improve the mintpy_beta_01 recipe or build a new
 package version, please fork this repository and submit a PR. Upon submission,
 your changes will be run on the appropriate platforms to give the reviewer an
 opportunity to confirm that the changes result in a successful build. Once
 merged, the recipe will be re-built and uploaded automatically to the
 `meissam` channel, whereupon the built conda packages will be available for
 everybody to install and use from the `meissam` channel.
-Note that all branches in the mehdizadehm/testproject-feedstock are
+Note that all branches in the mehdizadehm/mintpy_beta_01-feedstock are
 immediately built and any created packages are uploaded, so PRs should be based
 on branches in forks and branches in the main repository should only be used to
 build distinct package versions.
