@@ -24,7 +24,7 @@ jobs:
           command: |
             export CI=circle
             export FEEDSTOCK_NAME=$(basename ${CIRCLE_PROJECT_REPONAME})
-            ./.scripts/run_docker_build.sh
+            # ./.scripts/run_docker_build.sh
 
 workflows:
   version: 2
